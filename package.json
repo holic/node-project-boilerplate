@@ -3,11 +3,14 @@
   "name": "project-boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "knex": "knex"
   },
   "dependencies": {
     "debug": "^2.2.0",
     "express": "^4.13.1",
+    "knex": "^0.8.6",
+    "pg": "^4.4.0",
     "swig": "^1.4.2"
   }
 }
